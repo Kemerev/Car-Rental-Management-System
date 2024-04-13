@@ -80,7 +80,7 @@ public class LoginPanel extends JPanel {
 			JFrame frame = new JFrame("Login");
 			frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			frame.getContentPane().add(new LoginPanel());
-			frame.pack();
+			frame.setSize(420, 150); // Устанавливаем размеры окна 420x150 пикселей
 			frame.setLocationRelativeTo(null);
 			frame.setVisible(true);
 		});
